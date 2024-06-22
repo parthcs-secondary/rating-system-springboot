@@ -1,7 +1,5 @@
 package com.rating_backend.rating.exception;
 
-import org.springframework.http.ResponseEntity;
-
 public class ResponseNotFoundException extends RuntimeException{
 
     public ResponseNotFoundException() {

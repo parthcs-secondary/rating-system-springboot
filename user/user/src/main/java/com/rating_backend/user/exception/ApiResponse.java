@@ -1,4 +1,4 @@
-package com.rating_backend.user.payload;
+package com.rating_backend.user.exception;
 
 import lombok.*;
 import org.springframework.http.HttpStatus;

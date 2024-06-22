@@ -2,7 +2,6 @@ package com.rating_backend.user.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-
 import java.util.ArrayList;
 import java.util.List;
 

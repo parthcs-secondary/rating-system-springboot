@@ -1,7 +1,6 @@
 package com.rating_backend.user.service;
 
 import com.rating_backend.user.model.Users;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

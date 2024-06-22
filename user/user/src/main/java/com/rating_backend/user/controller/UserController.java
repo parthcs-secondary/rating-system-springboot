@@ -1,10 +1,8 @@
 package com.rating_backend.user.controller;
 
 import com.rating_backend.user.model.Users;
-import com.rating_backend.user.model.Users;
 import com.rating_backend.user.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

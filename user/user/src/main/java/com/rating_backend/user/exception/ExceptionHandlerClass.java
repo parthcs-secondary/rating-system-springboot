@@ -1,7 +1,5 @@
-package com.rating_backend.user.GlobalExceptionHandler;
+package com.rating_backend.user.exception;
 
-import com.rating_backend.user.exception.ResourceNotFoundException;
-import com.rating_backend.user.payload.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
