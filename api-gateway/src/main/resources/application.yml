@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: USER
+          uri: lb://USER
+          predicates:
+            - Path=/users/**
+
+        - id: HOTEL
+          uri: lb://HOTEL
+          predicates:
+            - Path=/hotels/**
+
+        - id: RATING
+          uri: lb://RATING
+          predicates:
+            - Path=/ratings/**
+
+server:
+  port: 8084
+
